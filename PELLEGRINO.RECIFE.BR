@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #ddd;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Artigos</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">Debates</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Últimos Artigos</h2>
+            <!-- Aqui você pode adicionar os artigos mais recentes -->
+        </section>
+
+        <section>
+            <h2>Notícias</h2>
+            <!-- Aqui você pode adicionar as últimas notícias -->
+        </section>
+
+        <section>
+            <h2>Debates</h2>
+            <!-- Aqui você pode adicionar os debates em andamento -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
